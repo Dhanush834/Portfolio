@@ -1,0 +1,169 @@
+a{
+    color: #02383C;
+    text-decoration:none;
+    font-size: 18px;
+}
+
+
+.bottom-container{
+    background-color: #DAE2B6;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+body{
+    text-align: center;
+    margin: 0;
+    background-image: url("https://img.freepik.com/premium-vector/abstract-smooth-blur-pastel-color-gradient-background-website-banner-paper-card-design_120819-487.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-attachment:scroll ;
+    font-family: 'Nunito', sans-serif;
+    color: #40514E;
+}
+
+
+.copyright{
+    color: black;
+    font-weight: bold;
+}
+
+
+.code{
+    
+    position: absolute;
+    top: 170px;
+    left: 85px; 
+}
+
+
+.code1{
+    
+    position: absolute;
+    top: 160px;
+    right: 100px; 
+}
+
+
+.code2{
+    
+    text-align: center;
+}
+
+
+.footer-link{
+    padding-right: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+h1{
+    margin:0;
+    font-family: 'Caveat', cursive;
+    font-size: 70px;
+}
+
+
+h2{
+    color:#02383C;
+    font-weight: normal;
+    font-size: larger;
+    font-size: 35px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    font-weight: bolder;
+    cursor:pointer;    
+}
+
+h2:hover{
+    --s: 0.1em;
+  --c: #1095c1; 
+  
+  color: #0000;
+  padding-bottom: var(--s);
+  background: 
+    linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+    linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: 1.5s;
+}
+
+
+hr{
+    padding: 5px 0 5px 0;
+    width: 150px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 8px;
+    border-style: dotted;
+    border-color: #AACB73;
+    line-height: 50px;
+    margin:20px auto 20px auto;   
+}
+
+
+.Hello
+{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+.intro{
+    font-size: 18px;
+    display: inline-block;
+    width: 40%;
+}
+
+.middlecontainer{
+    text-align: center;
+}
+
+
+.profile{ 
+    padding-left:45px;      
+    
+    display: inline-block;
+    padding-top: 40px;
+    
+}
+
+
+.profile{
+    float: inline-start;
+}
+
+p{
+    font-family: 'Nunito', sans-serif;
+    margin-top: 0;
+    
+}
+
+
+.skill-row{
+    padding-top: 10px;
+    display: inline-block;
+    line-height:3;
+}
+
+
+.skill_logo{
+    height: 100px;
+    padding-right: 8px;
+    padding-left: 4px;
+}
+
+
+.top{
+    padding-top: 100px;
+    font-size: 25px;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 10px;
+    
+}
