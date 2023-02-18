@@ -71,7 +71,7 @@ h2{
     color:#02383C;
     font-weight: normal;
     font-size: larger;
-    font-size: 35px;
+    font-size: 50px;
     padding-bottom: 10px;
     margin-bottom: 0px;
     font-weight: bolder;
@@ -115,7 +115,7 @@ hr{
 }
 
 .intro{
-    font-size: 18px;
+    
     display: inline-block;
     width: 40%;
 }
@@ -126,7 +126,6 @@ hr{
 
 
 .profile{ 
-    padding-left:45px;      
     
     display: inline-block;
     padding-top: 40px;
