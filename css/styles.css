@@ -22,34 +22,14 @@ body{
     background-attachment:scroll ;
     font-family: 'Nunito', sans-serif;
     color: #40514E;
+    position: relative;
 }
+
 
 
 .copyright{
     color: black;
     font-weight: bold;
-}
-
-
-.code{
-    
-    position: absolute;
-    top: 170px;
-    left: 85px; 
-}
-
-
-.code1{
-    
-    position: absolute;
-    top: 160px;
-    right: 100px; 
-}
-
-
-.code2{
-    
-    text-align: center;
 }
 
 
@@ -124,6 +104,28 @@ hr{
     text-align: center;
 }
 
+/* navbar designs */
+
+.navbar{
+    padding-bottom: 0;
+    background-color: #9DC08B;
+    opacity:90%;
+}
+
+.navbar-brand{
+    font-size:300%;
+    margin-left: 20px;
+}
+
+.navbar-nav{
+    margin-right:30px ;
+    font-weight: bolder;
+    
+}
+
+.nav-link{
+    font-size: 20px;
+}
 
 .profile{ 
     
