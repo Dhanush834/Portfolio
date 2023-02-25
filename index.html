@@ -3,25 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <title>Dhanush U</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <!-- favicon logo -->
+
     <link rel="icon" href="images\favicon.ico">
+
+    <!-- bootstrap links -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ 
+    <!-- font-awesome -->
+
+    <script src="https://kit.fontawesome.com/aa97cb4b5b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/aa97cb4b5b.css" crossorigin="anonymous">
+
+    <!-- google fonts -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link  href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Nunito:wght@300&display=swap" rel="stylesheet">
     
+    <!-- CSS style sheets -->
+    
+    <link rel="stylesheet" href="css/styles.css">
+
+
 </head>
-<body>
-        <div class="top">
-            <h1>I'm Dhanush</h1><br>
-            <p>CSE Stduent at SIT</p>
-            <img class="code2"src="https://cdn-icons-png.flaticon.com/128/876/876019.png " alt="IMG">
+<body data-spy="scroll" id="home">
+      
+
+      <!-- Navbar section -->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <span class="navbar-brand">
+          DU
+        </span>
+
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#DU">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+        <div class="collapse navbar-collapse" id="DU">
+
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">About me</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
 
         </div>
 
-        <img class="code"src="https://cdn-icons-png.flaticon.com/128/3190/3190461.png" alt="IMG">
-        <img class="code1"src="https://cdn-icons-png.flaticon.com/128/2115/2115955.png " alt="IMG">
+        
+      </nav>
 
+      <!-- First page with intro -->
+      
+        <div class="top">
+            <h1>I'm Dhanush</h1><br>
+            <p>CSE Stduent at SIT</p>
+            <img src="https://cdn-icons-png.flaticon.com/128/876/876019.png " alt="IMG">
 
+        </div>
 
         <div class="middle-container">
 
@@ -33,10 +82,12 @@
             </div>
 
             <hr>
-       
+        </div> 
+            
+       <!-- second section with skills -->
             <div class="skills">
 
-              <h2>Languages</h2>
+                <h2>Languages</h2>
               
               <div class="skill-row">
 
@@ -49,7 +100,7 @@
                 <img class="skill_logo" src="https://cdn-icons-png.flaticon.com/128/5968/5968267.png" alt="HTML">  
                 <img class="skill_logo" src="https://cdn-icons-png.flaticon.com/128/5968/5968242.png" alt="CSS">
                 <img class="skill_logo" src="https://cdn.iconscout.com/icon/free/png-512/bootstrap-6-1175203.png?f=avif&w=512" alt="Bootstrap">
-                <p>My Current front-end web development langauges I am using for designing.</p>
+                <p>My Current front-end web development langauges currently using for designing.</p>
 
                 <h2>My Hobbies</h2>
                 <img class="skill_logo" src="https://cdn-icons-png.flaticon.com/128/10/10880.png" alt="BADMINTON">
@@ -83,7 +134,7 @@
             <hr>
 
 
-            <div class="contact-me">
+            <div data-spy="scroll"  class="contact-me" id="contact">
                 <h2>Get In Touch</h2>
                 <a class="btn" href="mailto:dhanushu834@gmail.com">CONTACT ME</a><br><br>
              <!--
